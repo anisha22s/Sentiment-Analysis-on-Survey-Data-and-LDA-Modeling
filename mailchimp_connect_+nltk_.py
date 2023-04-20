@@ -31,7 +31,7 @@ title = 'Post-show Survey (Live version)'  #****replace with desired survey titl
 
 client = MailchimpMarketing.Client()
 client.set_config({
-    "api_key": "d1dd86849ea5ab988c6019b5bc07166d-us11", #extracted from mondavi's mailchimp account
+    "api_key": "######################", #extracted from mondavi's mailchimp account. 
     "server": "us11"
   })
 
