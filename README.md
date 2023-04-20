@@ -7,7 +7,9 @@ This project aims to analyze the sentiment and emotions of the reviews from a su
 The first chunk of the code is extracting the survey data from the Mailchimp account using API's and formatting it into a desired dataframe.
 Next the code also connects to the customer data from Mailchimp and integrates the two. 
 The NLP analysis starts from Row 168.
-The analysis was carried out in two parts. In the first part, we performed sentiment analysis and emotion labeling on the reviews using the TextBlob and EmoRoBERTa models, respectively. The second part involved topic modeling using Latent Dirichlet Allocation (LDA) on the positive reviews. The analysis aimed to uncover the topics that are most commonly mentioned in the positive reviews.
+The analysis was carried out in two parts. In the first part, I performed sentiment analysis and emotion labeling on the reviews using the TextBlob and EmoRoBERTa models, respectively. The second part involved topic modeling using Latent Dirichlet Allocation (LDA) on the positive reviews. The analysis aimed to uncover the topics that are most commonly mentioned in the positive reviews.  
+Further, using the wordcloud and matplotlib library, I have visualized the outputs in the form of wordclouds and bar charts.  
+Due to privaxy reasons, I am not able to display the outputs but this code can be reproduced for any text data.
 
 ## *Installation*
 
@@ -33,5 +35,5 @@ The sentiment analysis and emotion labeling results are stored in two new column
 
 ## *Credits*
 
-This project was created by Anisha. The sentiment analysis was performed using the TextBlob and EmoRoBERTa models. The LDA modeling was performed using the Gensim library.
+This project was created by entirely by Anisha. The sentiment analysis was performed using the TextBlob and EmoRoBERTa models. The LDA modeling was performed using the Gensim library.
 
