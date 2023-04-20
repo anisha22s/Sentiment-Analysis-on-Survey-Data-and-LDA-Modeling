@@ -4,8 +4,10 @@
 ## *Overview*
 
 This project aims to analyze the sentiment and emotions of the reviews from a survey conducted at the Mondavi Center. 
-The first chunk of the code is extracting the survey data from the Mailchimp account using API's and formatting it into a desired dataframe.
+The first part of the project is the exact duplicaate of code provided in the repository "Automating-Data-Workflow-Mailchimp".
+This first part is essentially extracting the survey data from the Mailchimp account using API's and formatting it into a desired dataframe.
 Next the code also connects to the customer data from Mailchimp and integrates the two. 
+
 The NLP analysis starts from Row 168.
 The analysis was carried out in two parts. In the first part, I performed sentiment analysis and emotion labeling on the reviews using the TextBlob and EmoRoBERTa models, respectively. The second part involved topic modeling using Latent Dirichlet Allocation (LDA) on the positive reviews. The analysis aimed to uncover the topics that are most commonly mentioned in the positive reviews.  
 Further, using the wordcloud and matplotlib library, I have visualized the outputs in the form of wordclouds and bar charts.  
